@@ -1,0 +1,15 @@
+name: FormatHelper
+version: ${project.version}
+main: net.cybercake.helper.Main
+api-version: 1.17
+authors: [ CyberedCake ]
+description: FormatHelper is a plugin that helps server owners more openly configure chat messages, such as join/leave messages, through configuration files and commands!
+website: github.com/CyberedCake/FormatHelper
+softdepend: [ PlaceholderAPI ]
+
+commands:
+  formathelper:
+    description: The main command for the FormatHelper plugin
+    usage: Use /formathelper help for help! §cSometimes, if you see this message whilst trying to run that command, it
+      means the plugin has broken!
+    aliases: [fh]
